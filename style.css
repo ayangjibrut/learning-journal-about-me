@@ -30,29 +30,41 @@ li {
     padding-bottom: .5em;
 }
 
-h4.recent-post {
+.sub-title {
+    padding-top: 2em;
+    padding-bottom: .5em;
+}
+
+.spacing {
+    padding-top: .5em;
+}
+
+.recent-post {
     text-align: center;
     padding-top: 3em;
 }
 
 /* CONTENT */
 
+section {
+    width: 90%;
+    padding-top: 3.125em;
+    margin: 0 auto;
+}
+
+.section-container {
+    padding: 1.5em 0;
+}
+
 .profile-picture {
     display: block;
     width: 250px;
     border-radius: 50%;
     margin: 0 auto;
-    padding: 1.5em 0;
 }
 
-.section-container {
-    padding-bottom: 2em;
-}
-
-section {
-    width: 90%;
-    padding-top: 3.125em;
-    margin: 0 auto;
+.intro {
+    padding-top: 1.5em;
 }
 
 /* ARTICLE */
@@ -155,7 +167,7 @@ footer {
 
     .intro {
         padding-left: 2em;
-        padding-top: 3em;
+        padding-top: 2em;
     }
 
     .grid-container {
